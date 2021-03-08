@@ -14,6 +14,7 @@ create_post_button.onclick = function () {
 /**
  * This function is called when create button of the modal is clicked.
  */
+
 create_post_modal_close_button.onclick = function () {
     toggleCreatePostModal();
 }
