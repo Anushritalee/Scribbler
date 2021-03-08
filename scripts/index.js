@@ -1,3 +1,5 @@
+
+
 //Contains js functionalities which is only specific to index.html.
 
 var create_post_modal = document.getElementById("create-post-modal");
@@ -25,3 +27,4 @@ create_post_modal_close_button.onclick = function () {
 function toggleCreatePostModal() {
     create_post_modal.classList.toggle("show-modal");
 }
+

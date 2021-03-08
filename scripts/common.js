@@ -1,3 +1,4 @@
+
 //Common.css contains common js functionalities accross multiple pages.
 
 var signup_modal = document.getElementById("sign-up-modal");
@@ -62,3 +63,4 @@ signin_anchor.onclick = function () {
     toggleSigninModal();
     toggleSignupModal();
 }
+
