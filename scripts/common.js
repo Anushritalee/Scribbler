@@ -41,6 +41,7 @@ signin_button.onclick = function () {
 
 /**
  * This function is called when sign in button of the modal is clicked.
+ 
  */
 signin_modal_close_button.onclick = function () {
     toggleSigninModal();
