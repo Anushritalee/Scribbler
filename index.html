@@ -4,10 +4,46 @@
 <head>
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
+    <title>ScriBBler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--Styles-->
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
     <!-- TODO: Include all your code for the header and home page here -->
+    <header>
+        <div>
+            <a class="website-title">ScriBBler</a>
+            <h4 class="subheading">Explore, Imagine, Create</h4>
+        </div>
+        <div>
+            <button id="header-button-sign-up" class="header-buttons">Sign Up</button>
+            <button id="header-button-sign-in" class="header-buttons">Sign In</button>
+        </div>
+
+        <!--Sign Up Modal-->
+        <div id="sign-up-modal" class="modal">
+            <div class="modal-content">
+                <h2 class="modal-header">Get Started <i id="signup-modal-close-button" class="fa fa-times"
+                        aria-hidden="true"></i></h2>
+
+ <!--Sign In Modal-->
+        <div id="sign-in-modal" class="modal">
+            <div class="modal-content">
+                <h2 class="modal-header">Welcome Back!<i id="signin-modal-close-button" class="fa fa-times"
+                        aria-hidden="true"></i></h2>
+
+<script src="./scripts/common.js">
+    </script>
+    <script src="./scripts/index.js">
+    </script>
 </body>
 
 </html>
